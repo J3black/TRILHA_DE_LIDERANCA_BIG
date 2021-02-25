@@ -1,0 +1,239 @@
+@media only screen and (max-width : 959px),
+(max-width : 960px) and (orientation: portrait) {
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 2.6em;
+    }
+
+    h3 {
+        font-size: 2em;
+    }
+
+    .content-1024 {
+        padding: 0 5px;
+    }
+
+    /* ==========================================================================
+    Accordion
+  ========================================================================== */
+
+    /* ==========================================================================
+    Áudio
+  ========================================================================== */
+    .audio .btn-audio-video:before {
+        right: 10px;
+    }
+
+    .audio .img-right {
+        display: none;
+    }
+
+    .audio .text-right {
+        text-align: center;
+    }
+
+    /* ==========================================================================
+    Background Image
+  ========================================================================== */
+    .bkg-img h2 {
+        font-size: 3em;
+    }
+
+    /* ==========================================================================
+    Card
+  ========================================================================== */
+    .card .vertical-center {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    /* ==========================================================================
+    Featured 1
+  ========================================================================== */
+    .featured-1 {
+        padding: 50px 0;
+    }
+
+    .featured-1:after {
+        display: none;
+    }
+
+    .featured-1:before {
+        display: none;
+    }
+
+    /* ==========================================================================
+    Featured 2
+  ========================================================================== */
+    .featured-2 .featured-2-text {
+        margin-bottom: 25px;
+        padding: 30px 5px;
+        position: relative;
+    }
+
+    /* ==========================================================================
+    Graphics
+  ========================================================================== */
+    .graphics-1:after {
+        display: none;
+    }
+
+    .graphics-2:after {
+        display: none;
+    }
+
+    .graphics-3:after {
+        display: none;
+    }
+
+    .graphics-5:after {
+        display: none;
+    }
+    .graphics-8:after {
+        display: none;
+    }
+
+
+    /* ==========================================================================
+    Header
+  ========================================================================== */
+    .header {
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .header:before,
+    .header:after,
+    .header .btn-start {
+        display: none;
+    }
+
+    .header h1 {
+        font-size: 5em;
+        left: inherit;
+        margin-top: 25px;
+        position: relative;
+        top: inherit;
+        transform: none;
+    }
+
+    /* ==========================================================================
+    Question Discursive
+  ========================================================================== */
+    .question-discursive .btn {
+        background: #0066C6;
+    }
+
+    /* ==========================================================================
+    Quote
+  ========================================================================== */
+    .quote-box .content-800 {
+        padding: 120px 5px 0 5px;
+    }
+
+    .quote-box .content-800:before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* ==========================================================================
+    Slider 1
+  ========================================================================== */
+    .slideshow-1 .slideshow-caption {
+        height: auto !important;
+    }
+
+    /* ==========================================================================
+    Slider 2
+  ========================================================================== */
+    .slideshow-2 {
+        padding: 0 0 25px 0;
+    }
+
+    .slideshow-2 .slideshow-caption {
+        height: auto !important;
+        padding: 25px 0;
+        position: relative;
+        right: inherit;
+        top: inherit;
+        width: 100%;
+        transform: none;
+    }
+
+    .slideshow-2 .slick-dots {
+        bottom: inherit;
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        right: inherit;
+    }
+
+    .slideshow-2 .slideshow-nav {
+        bottom: 40px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    /* ==========================================================================
+    Slider 3
+  ========================================================================== */
+    .slideshow-3:after {
+        display: none;
+    }
+
+    .slideshow-3 .slideshow-nav {
+        width: 280px;
+    }
+
+    /* ==========================================================================
+    Slider 4
+  ========================================================================== */
+    .slideshow-4 .slideshow-nav {
+        width: 280px;
+    }
+
+    .slideshow-4 .slideshow-caption {
+        height: auto !important;
+        padding: 25px 0;
+        position: relative;
+        right: inherit;
+        top: inherit;
+        width: 100%;
+        transform: none;
+    }
+
+    /* ==========================================================================
+    Tab Horizontal
+  ========================================================================== */
+    .tab-horizontal .tab-menu-link {
+        font-size: 1.6em;
+        padding: 10px 5px;
+    }
+
+    .tab-horizontal .tab-content-item.is-active {
+        padding: 20px;
+    }
+
+
+    /* ==========================================================================
+    Tab Vertical
+  ========================================================================== */
+    .tab-vertical .tab-menu {
+        width: 100%;
+    }
+
+    .tab-vertical .tab-menu-link {
+        font-size: 1.6em;
+        padding: 10px 5px;
+    }
+
+    .tab-vertical .tab-content-item.is-active {
+        padding: 20px;
+    }
+
+}
